@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>604673b4-d27e-4c6a-a170-8dfa204c707d</id>
+    <loglevel>INFO</loglevel>
+    <name>echo hostname</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>hostname</exec>
+      </command>
+    </sequence>
+    <uuid>604673b4-d27e-4c6a-a170-8dfa204c707d</uuid>
+  </job>
+</joblist>
